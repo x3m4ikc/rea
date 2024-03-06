@@ -1,21 +1,31 @@
-.nav-menu-holder {
-    
-    display: flex;
-    flex-direction: row;
-}
-
 .navigation {
-    
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding: 5.5rem 1rem 0rem 1rem;
 }
 
 .navigation-item {
-    height: 12.5vh;
     width: 100%;
 }
 
 li {
     list-style: none;
+}
+
+.nav-but {
+    border: none;
+    width: 100%;
+    height: 4.9rem;
+    background-color: transparent;
+    color: #ABABAB;
+}
+
+.active {
+    color: #FFFFFF;
+    background-color:  #17332c;
+    border: 0.15rem solid #314842;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: none;
 }

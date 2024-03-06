@@ -14,4 +14,14 @@
     margin-right: 0.15rem;
     border: 1px solid #60876F;
     border-radius: 8px;
+    background-image: linear-gradient(167deg, rgba(22,52,46,1) 0%, rgba(29,80,68,1) 100%);
+    color: #FFFFFF;
+}
+
+.span-topbar {
+    opacity: 80%;
+}
+
+span + p {
+    margin-top: 0.5rem;
 }
