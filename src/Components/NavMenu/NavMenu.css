@@ -1,0 +1,21 @@
+.nav-menu-holder {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-item {
+    height: 12.5vh;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
