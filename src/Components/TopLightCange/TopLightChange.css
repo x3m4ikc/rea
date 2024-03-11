@@ -4,10 +4,23 @@
     display: flex;
     flex-direction: column;
     color: #ABABAB;
+    border: 0.15rem solid #314842;
+    border-radius: 1rem;
+    background-color: #17332c;
 }
 
 .flex-row {
     width: 100%;
     display: flex;
     flex-direction: row;
+    position: relative;
+}
+
+.period {
+    
+}
+
+.time-point {
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
 }
