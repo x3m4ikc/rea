@@ -1,5 +1,5 @@
 import "./NavMenu.css"
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavMenu = () => {
 
@@ -7,63 +7,60 @@ const NavMenu = () => {
         <div className="nav-menu-holder">
             <ul className="navigation">
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        {/* <NavLink to='/' className={ ({ isActive }) => (isActive ? 'link-item active' : 'link-item')}>
-                            <span className="nav=text">Главная</span>
-                        </NavLink> */}
-                        <a>
+                    <NavLink to='/' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Главная</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
+                    <NavLink to='/program' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Выбор программы</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
-                            <span className="nav-text">Управление</span>
-                        </a>
-                    </button>
+                    <NavLink to='/control' className='link-item'>
+                        <button className="nav-but">                
+                            <span className="nav-text">Управление</span>    
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
+                    <NavLink to='/temperature' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Температура</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but active">
-                        <a>
+                    <NavLink to='/humidity' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Влажность и CO₂</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
+                    <NavLink to='/mixture' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Растворный узел</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
+                    <NavLink to='/watering' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Расписание поливов</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
                 <li className="navigation-item">
-                    <button className="nav-but">
-                        <a>
+                    <NavLink to='/light' className='link-item'>
+                        <button className="nav-but">
                             <span className="nav-text">Освещение</span>
-                        </a>
-                    </button>
+                        </button>
+                    </NavLink>
                 </li>
             </ul>
         </div>

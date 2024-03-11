@@ -2,7 +2,7 @@ import ImageHolder from "../../Components/ImageHolder/ImageHolder";
 import NavMenu from "../../Components/NavMenu/NavMenu";
 import TopBar from "../../Components/TopBar/TopBar";
 
-const HumidityComponent = () => {
+const HumidityPage = () => {
     return (
         <div>
             <TopBar />
@@ -12,4 +12,4 @@ const HumidityComponent = () => {
     )
 }
 
-export default HumidityComponent;
+export default HumidityPage;

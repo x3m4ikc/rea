@@ -2,7 +2,8 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 5.5rem 1rem 0rem 1rem;
+    padding: 4.75rem 1rem 0rem 1rem;
+    position: relative;
 }
 
 .navigation-item {
@@ -28,4 +29,9 @@ li {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
 }
