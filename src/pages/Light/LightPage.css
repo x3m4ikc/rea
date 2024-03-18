@@ -1,3 +1,59 @@
-.box {
+.boxxx {
+    padding: .5rem;
+}
+
+.box-flex {
+    display: flex;
+}
+
+.zero {
+    flex: 0 0 auto;
+    width: 150px;
+}
+
+.dawn, .sunset {
+    flex: 0 0 auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.light-day {
+    flex: 1 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.box-lines {
+    margin-top: .5rem;
+    border-top: 1px dashed wheat;
+}
+
+.box-line {
+    border-bottom: 1px dashed wheat;
     padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.dawn div, .sunset div {
+    border-radius: 2px;
+    background-color: red;
+    height: 20px;
+}
+
+.light-day div {
+    border-radius: 2px;
+    background-color: blue;
+    height: 20px;
+}
+
+.box-header .dawn, .box-header .sunset {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.box-time {
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }

@@ -114,7 +114,7 @@ const TopLightCange = () => {
                     </li>
                 </ul>
             </div>
-            <div classname="day-graph">
+            <div className="day-graph">
                 <Line options={options} data={data} className='graph'/>
             </div>
             <div className="time">

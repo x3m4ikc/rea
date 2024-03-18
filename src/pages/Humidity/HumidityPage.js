@@ -8,7 +8,9 @@ const HumidityPage = () => {
         <div>
             <TopBar />
             <ImageHolder />
-            <div className="space" />
+            {/*  */}
+            {/* Добавить паддинги сверху и снизу и текст алайнг потом убрать спейс */}
+            <div className="space" /> 
             <NavMenu />
         </div>
     )
