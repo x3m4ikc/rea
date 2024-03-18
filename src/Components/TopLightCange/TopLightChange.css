@@ -1,8 +1,10 @@
 .change-holder {
-    width: 100%;
-    height: 20vh;
+    width: 97.5%;
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
     color: #ABABAB;
     border: 0.15rem solid #314842;
     border-radius: 1rem;
@@ -13,11 +15,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: relative;
-}
-
-.period {
-    
 }
 
 .time-point {
