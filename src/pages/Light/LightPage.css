@@ -1,5 +1,9 @@
 .boxxx {
-    padding: .5rem;
+    padding: 1.5rem 1.5rem 0.5rem;
+    margin: 0 1rem;
+    border-radius: 1rem;
+    border: 1px solid #60876F;
+    background: rgba(51, 51, 51, 0.40);
 }
 
 .box-flex {
@@ -53,6 +57,7 @@
 }
 
 .box-time {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     color: white;
