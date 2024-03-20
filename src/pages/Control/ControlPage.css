@@ -1,0 +1,24 @@
+.box-middle {
+    padding-top: 0.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border: 0.05rem solid #60876F;
+    border-radius: .5rem;
+    margin: 1rem .5rem;
+    text-align: center;
+    background-image: linear-gradient(167deg, rgba(22,52,46,1) 0%, rgba(29,80,68,1) 100%);
+    opacity: 0.8;
+}
+
+.flex-box {
+    justify-content: center
+}
+
+.flex-box-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-box-column {
+    display: flex;
+}

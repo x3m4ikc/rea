@@ -2,16 +2,17 @@ import NavMenu from "../../Components/NavMenu/NavMenu";
 // import TopLightCange from "../../Components/TopLightCange/TopLightCange";
 import image from '../../static/images/cells.png'
 import './LightPage.css';
+import { useState } from "react";
 
 const LightPage = () => {
+
+    const [cellGroup, setCellGroup] = useState(1);
+
+    const handleCellClick = (group) => {
+        setCellGroup(group)
+    }
+
     return (
-        // <div className="first-box">
-        //     <div className="box">
-        //         <TopLightCange />
-        //         <LightCenter />
-        //         <NavMenu />
-        //     </div>
-        // </div>
         <div>
         <div className="boxxx">
             <div className="box-header box-flex">
@@ -72,26 +73,26 @@ const LightPage = () => {
 
         <div className='dispaly-flex-box'>
             <ul className="cells-holder">
-                <li className="cells-item">
+                <li className="cells-item" onClick={() => handleCellClick(1)}>
                     <span className="cells-text">Ярус 1</span>
                 </li>
-                <li className="cells-item item-2">
+                <li className="cells-item item-2" onClick={() => handleCellClick(2)}>
                     <span className="cells-text">Ярус 2</span>
                 </li>
-                <li className="cells-item item-2">
+                <li className="cells-item item-2" onClick={() => handleCellClick(3)}>
                     <span className="cells-text">Ярус 3</span>
                 </li>
-                <li className="cells-item item-2">
+                <li className="cells-item item-2" onClick={() => handleCellClick(4)}>
                     <span className="cells-text">Ярус 4</span>
                 </li>
             </ul>
             <div className="image-light-holder">
                 <img src={image} className="light_image"/>
             </div>
-            <div className='layer_1' />
-            <div className='layer_2' />
+            <div className={`layer_${cellGroup}`} />
+            {/* <div className='layer_2' />
             <div className='layer_3' />
-            <div className='layer_4' />
+            <div className='layer_4' /> */}
         </div>
 
         <NavMenu />
