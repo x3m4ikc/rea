@@ -21,4 +21,28 @@
 
 .flex-box-column {
     display: flex;
+    flex-direction: column;
+}
+
+.time-points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-icon {
+    margin: .5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
