@@ -21,30 +21,30 @@ export default ControlPage;
 const TopLayer = () => {
   return (
     <div>
-      <span className="text">Параметры воздуха</span>
+      <span className="text heading air">Параметры воздуха</span>
       <div className="buttons-holder-topbar">
                 <button className="button-topbar">
                     <span className="span-topbar">Температура дневная</span>
-                    <div>
-                      <RemoveOutlinedIcon />
+                    <div className='flex-container equaling'>
+                      <RemoveOutlinedIcon className='change-icon'/>
                       <span>25.0°С</span>
-                      <AddOutlinedIcon />
+                      <AddOutlinedIcon className='change-icon'/>
                     </div>
                 </button>
                 <button className="button-topbar">
                     <span className="span-topbar">Температура ночная</span>
-                    <div>
-                      <RemoveOutlinedIcon />
+                    <div className='flex-container equaling'>
+                      <RemoveOutlinedIcon className='change-icon'/>
                       <span>25.0°С</span>
-                      <AddOutlinedIcon />
+                      <AddOutlinedIcon className='change-icon'/>
                     </div>
                 </button>
                 <button className="button-topbar">
                     <span className="span-topbar">Влажность</span>
-                    <div>
-                      <RemoveOutlinedIcon />
+                    <div className='flex-container equaling'>
+                      <RemoveOutlinedIcon className='change-icon'/>
                       <span>65%</span>
-                      <AddOutlinedIcon />
+                      <AddOutlinedIcon className='change-icon'/>
                     </div>
                 </button>
             </div>
@@ -128,31 +128,50 @@ const MiddleLayer = () => {
 const BottomLayer = () => {
   return (
     <div>
-      <span className="text">Параметры воздуха</span>
+      <span className="text heading">Растворный узел</span>
       <div className="buttons-holder-topbar">
+
                 <button className="button-topbar">
                     <span className="span-topbar">Диапазон PH</span>
-                    <div>
-                      <RemoveOutlinedIcon />
-                      <span>25.0°С</span>
-                      <AddOutlinedIcon />
+                    <div className='flex-container'>
+                      <div className='flex-column-container'>
+                        <span>6.5</span>
+                        <span>Нижняя граница</span>
+                      </div>
+                      <RemoveOutlinedIcon className='change-icon'/>
+                      <div className='flex-column-container'>
+                        <span>7.5</span>
+                        <span>верхняя граница</span>
+                      </div>
                     </div>
+
                 </button>
                 <button className="button-topbar">
                     <span className="span-topbar">Диапазон EC</span>
-                    <div>
-                      <RemoveOutlinedIcon />
-                      <span>25.0°С</span>
-                      <AddOutlinedIcon />
+                    <div className='flex-container'>
+                      <div className='flex-column-container'>
+                        <span>6.5</span>
+                        <span>Нижняя граница</span>
+                      </div>
+                      <RemoveOutlinedIcon className='change-icon'/>
+                      <div className='flex-column-container'>
+                        <span>7.5</span>
+                        <span>верхняя граница</span>
+                      </div>
                     </div>
+                    
                 </button>
                 <button className="button-topbar">
-                    <span className="span-topbar">Минимальная допустимая</span>
-                    <span className="span-topbar">температура раствора</span>
-                    <div>
-                      <RemoveOutlinedIcon />
-                      <span>65%</span>
-                      <AddOutlinedIcon />
+                    <div className='flex-column-container'>
+                      <span className="span-topbar">Минимальная допустимая</span>
+                      <span className="span-topbar">температура раствора</span>
+                      <div className='flex-container'>
+                        <RemoveOutlinedIcon className='change-icon2'/>
+                          
+                            <span>20°С</span>
+                          
+                        <AddOutlinedIcon className='change-icon2'/>
+                      </div>
                     </div>
                 </button>
             </div>

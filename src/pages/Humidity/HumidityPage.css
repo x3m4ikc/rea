@@ -1,7 +1,34 @@
-.space {
-    margin-top: 3.9rem;
-}
-
 .text {
     color: #ABABAB;
+}
+
+.buttons-holder-topbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    padding-top: 0.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.button-topbar {
+    width: 100%;
+    padding-top: .5rem;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+    border: 1px solid #60876F;
+    border-radius: 8px;
+    background-image: linear-gradient(167deg, rgba(22,52,46,1) 0%, rgba(29,80,68,1) 100%);
+    color: #FFFFFF;
+}
+
+span + p {
+    margin-top: 0.5rem;
+}
+
+.room_image {
+    display: block;
+    margin: 5rem auto 2.5rem auto;
+    width: 50%;
 }

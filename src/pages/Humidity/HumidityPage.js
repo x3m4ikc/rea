@@ -1,6 +1,5 @@
-import ImageHolder from "../../Components/ImageHolder/ImageHolder";
 import NavMenu from "../../Components/NavMenu/NavMenu";
-import TopBar from "../../Components/TopBar/TopBar";
+import image from '../../static/images/room.png'
 import './HumidityPage.css';
 
 const HumidityPage = () => {
@@ -8,12 +7,36 @@ const HumidityPage = () => {
         <div>
             <TopBar />
             <ImageHolder />
-            {/*  */}
-            {/* Добавить паддинги сверху и снизу и текст алайнг потом убрать спейс */}
-            <div className="space" /> 
             <NavMenu />
         </div>
     )
 }
 
 export default HumidityPage;
+
+const TopBar = () => {
+    return (
+            <div className="buttons-holder-topbar">
+                <button className="button-topbar">
+                    <span className="span-topbar">Датчик влажности 1</span>
+                    <p className="sensor-value">65%</p>
+                </button>
+                <button className="button-topbar">
+                    <span className="span-topbar">Датчик влажности 2</span>
+                    <p className="sensor-value">67%</p>
+                </button>
+                <button className="button-topbar">
+                    <span className="span-topbar">Датчик уровня CO₂</span>
+                    <p className="sensor-value">450 PPM</p>
+                </button>
+            </div>
+    )
+}
+
+const ImageHolder = () => {
+    return (
+        <div className="img-holder">
+            <img src={image} className="room_image"/>
+        </div>
+    )
+}
