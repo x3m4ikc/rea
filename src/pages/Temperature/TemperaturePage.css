@@ -29,11 +29,15 @@ span + p {
     width: 60%;
 }
 
-/* .pointer1 {
+.pointer_icon_1 {
+    
+}
+
+.pointer1 {
     position: absolute;
     border-bottom: .15rem solid #60876F;
     border-left: .15rem solid #60876F;
 
     width: 100%;
     height: 18%;
-} */
+}
