@@ -90,9 +90,6 @@ const LightPage = () => {
                 <img src={image} className="light_image"/>
             </div>
             <div className={`layer_${cellGroup}`} />
-            {/* <div className='layer_2' />
-            <div className='layer_3' />
-            <div className='layer_4' /> */}
         </div>
 
         <NavMenu />

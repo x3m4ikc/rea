@@ -51,13 +51,20 @@ const TopBar = () => {
                     <p className="sensor-value">25.0°С</p>
                 </button>
             </div>
+            
     )
 }
 
 const ImageHolder = () => {
     return (
-        <div className="img-holder">
-            <img src={image} className="room_image"/>
+        <div>
+            <div className="pointer1"></div>
+            <div className="pointer2"></div>
+            <div className="pointer3"></div>
+        
+            <div className="img-holder">
+                <img src={image} className="room_image"/>
+            </div>
         </div>
     )
 }

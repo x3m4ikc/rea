@@ -29,6 +29,57 @@ span + p {
 
 .room_image {
     display: block;
-    margin: 5rem auto 2.5rem auto;
-    width: 50%;
+    margin: 1.75rem auto 1rem auto;
+    width: 60%;
+}
+
+.pointer_1 {
+    position: absolute;
+    border-bottom: .15rem solid #60876F;
+    border-left: .15rem solid #60876F;
+    margin-top: -1.8rem;
+    margin-left: 15rem;
+    height: 21.5rem;
+    width: 15rem;
+}
+
+.pointer_icon1 {
+    color: #60876F;
+    position: absolute;
+    margin-top: 19.25rem;
+    margin-left: 29.5rem;
+}
+
+.pointer_2 {
+    position: absolute;
+    border-bottom: .15rem solid #60876F;
+    border-left: .15rem solid #60876F;
+    margin-top: -1.8rem;
+    margin-left: 40rem;
+    height: 14.5rem;
+    width: 2.75rem;
+}
+
+.pointer_icon2 {
+    color: #60876F;
+    position: absolute;
+    margin-top: 12.25rem;
+    margin-left: 42.5rem;
+}
+
+.pointer_3 {
+    position: absolute;
+    border-bottom: .15rem solid #60876F;
+    border-right: .15rem solid #60876F;
+    margin-top: -1.8rem;
+    margin-left: 33.5rem;
+    height: 18.5rem;
+    width: 33rem;
+}
+
+.pointer_icon3 {
+    color: #60876F;
+    position: absolute;
+    margin-top: 16.2rem;
+    margin-left: 33rem;
 }

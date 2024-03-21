@@ -1,5 +1,6 @@
 import NavMenu from "../../Components/NavMenu/NavMenu";
 import image from '../../static/images/room.png'
+import LensIcon from '@mui/icons-material/Lens';
 import './HumidityPage.css';
 
 const HumidityPage = () => {
@@ -35,8 +36,17 @@ const TopBar = () => {
 
 const ImageHolder = () => {
     return (
-        <div className="img-holder">
-            <img src={image} className="room_image"/>
+        <div>
+            <div className="pointer_1"></div>
+            <LensIcon className="pointer_icon1" sx={{ fontSize: 15 }}/>
+            <div className="pointer_2"></div>
+            <LensIcon className="pointer_icon2" sx={{ fontSize: 15 }}/>
+            <div className="pointer_3"></div>
+            <LensIcon className="pointer_icon3" sx={{ fontSize: 15 }}/>
+        
+            <div className="img-holder">
+                <img src={image} className="room_image"/>
+            </div>
         </div>
     )
 }
